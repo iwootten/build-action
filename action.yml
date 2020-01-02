@@ -1,0 +1,5 @@
+name: 'Questionnaire Docker Build'
+description: 'Builds a docker image capable of building questionnaires'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
