@@ -16,7 +16,3 @@ COPY Pipfile.lock Pipfile.lock
 
 RUN pip install pipenv==2018.11.26 --no-cache-dir \
     && pipenv install --deploy
-
-COPY entrypoint.sh /entrypoint.sh
-
-ENTRYPOINT ["/entrypoint.sh"]
